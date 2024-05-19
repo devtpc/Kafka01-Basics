@@ -39,7 +39,7 @@ docker-compose up -d
 ### Create the Clickstream Data
 
 > [!NOTE]
-> Although that most of the scripts could be run in the Gitbash shell on windows, the `ksql` commands and scripts did not run properly, so I changed the environment to the WSL (Windows Subsystem for Linux) terminal, where everything worked smoothly.
+> Although most of the scripts could be run in the Gitbash shell on windows, the `ksql` commands and scripts did not run properly, so I changed the environment to the WSL (Windows Subsystem for Linux) terminal, where everything worked smoothly.
 
 1. Launch the ksqlDB CLI:
 ```
@@ -246,7 +246,7 @@ The above code was created as a [statemens_extra.sql](/ksql/ksql-clickstream-dem
 
 Run this script from the `ksql shell` by running
 ```
-RUN SCRIPT '/scripts/statements.sql';
+RUN SCRIPT '/scripts/statements_extra.sql';
 ```
 
 Repeat the tutorial steps from the [Load the Clickstream Data in Grafana](#load-the-clickstream-data-in-grafana) task!
